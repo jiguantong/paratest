@@ -6,6 +6,7 @@ nohup $PARA_TEST/bin/darwinia-collator \
  --chain $PARA_TEST/res/para-2105-raw.json \
  --base-path $PARA_TEST/data/para/2105/alice \
  --unsafe-ws-external --unsafe-rpc-external \
+ --rpc-cors=all \
  --port 40334 \
  --ws-port 8845 \
  -- \

@@ -6,6 +6,7 @@ nohup $PARA_TEST/bin/acala \
  --chain $PARA_TEST/res/para-2000-raw.json \
  --base-path $PARA_TEST/data/para/2000/alice \
  --unsafe-ws-external --unsafe-rpc-external \
+ --rpc-cors=all \
  --port 40333 \
  --ws-port 8844 \
  -- \
